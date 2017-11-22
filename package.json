@@ -1,0 +1,24 @@
+{
+  "name": "kubernetes-node",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "dev": "nodemon -L --inspect app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodyno/kubernetes-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bodyno/kubernetes-node/issues"
+  },
+  "homepage": "https://github.com/bodyno/kubernetes-node#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
+}
